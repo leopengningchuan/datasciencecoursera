@@ -47,4 +47,4 @@ names(data_mean_std) <- gsub("Freq", "Frequency", names(data_mean_std))
 names(data_mean_std) <- gsub("Mag", "Magnitude", names(data_mean_std))
 
 # 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-write.table(data_mean_std,file="tidydata.txt")
+write.table(data_mean_std,file="data_mean_std.txt")
